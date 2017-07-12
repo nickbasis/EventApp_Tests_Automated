@@ -39,7 +39,7 @@ public class Settings {
 		WebDriver driver = new ChromeDriver(options);
 		*/
 		
-//		Customized xpath Using Attributes .//tagName[@attribute=‘value’] 		
+//		Customized xpath Using Attributes .//tagName[@attribute=â€˜valueâ€™] 		
 		
 		//GO to the app
 		
@@ -47,14 +47,14 @@ public class Settings {
 		
 		//Enter login details
 				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).clear(); //Vres to pedio gia username kai katharise to
-				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).sendKeys("admin"); //Grapse 'admin'
+				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).sendKeys("****"); //Grapse 'admin'
 				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).clear(); //Vres to pedio gia password kai katharise to
-				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).sendKeys("pallmall91");
+				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).sendKeys("******");
 				
 //				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).clear(); //Vres to pedio gia username kai katharise to
-//				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).sendKeys("Concise_admin"); //Grapse 'admin'
+//				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_UserName")).sendKeys("*****"); //Grapse 'admin'
 //				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).clear(); //Vres to pedio gia password kai katharise to
-//				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).sendKeys("5alusbury(NW6)");
+//				driver.findElement(By.id("ctl00_mainContent_LoginCtrl_Password")).sendKeys("*****");
 				
 				//Click on 'Sign In' button
 				
